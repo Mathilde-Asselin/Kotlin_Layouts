@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Relative Layout => Vertical Orientation -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fond"
+    android:orientation="vertical"
+    tools:context="MainActivity">
+
+    <!-- Linear Layout => Vertical Orientation -->
+    <!-- Black Card -->
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/roundstyle"
+        android:backgroundTint="@color/black"
+
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:textAlignment="center">
+
+        <!-- Button Google -->
+        <Button
+            android:id="@+id/Google"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="5dp"
+            android:backgroundTint="@color/Google"
+            android:padding="20dp"
+
+            android:text="Sign in with Google+"
+            android:textAllCaps="false"
+            android:textColor="#FFF7F7" />
+
+        <!-- Button Twitter -->
+        <Button
+            android:id="@+id/Twitter"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="5dp"
+            android:backgroundTint="@color/Twitter"
+            android:padding="20dp"
+
+            android:text="Sign in with Twitter"
+            android:textAllCaps="false"
+            android:textColor="#FFF7F7" />
+
+        <!-- Button Facebook -->
+        <Button
+            android:id="@+id/Facebook"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="5dp"
+            android:backgroundTint="@color/Facebook"
+            android:padding="20dp"
+
+            android:text="Sign in with Facebook"
+            android:textAllCaps="false"
+            android:textColor="#FFF7F7" />
+
+    </LinearLayout>
+
+</RelativeLayout>
